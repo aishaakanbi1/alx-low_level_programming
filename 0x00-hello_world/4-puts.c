@@ -8,7 +8,6 @@
  * Return: an integer is returned to signify success or failure
 
  */
-
 int main(void)
 
 {
