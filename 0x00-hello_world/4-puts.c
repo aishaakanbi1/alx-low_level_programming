@@ -1,7 +1,4 @@
 #include <stdio.h>
-
-
-
 /**
 
  * main - program execution starts here
