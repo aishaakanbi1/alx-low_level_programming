@@ -16,14 +16,14 @@ int main(void)
                alphabet++;
       }
       
-      alphabet = A;
+      alphabet = 'A';
       
       while (alphabet < 91)
       {
               putchar(alphabet);
               alphabet++;
       }
-      putchar(n);
+      putchar('\n');
 
       return (0);
 }
