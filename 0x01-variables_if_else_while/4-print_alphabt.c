@@ -7,16 +7,16 @@
  */
 int main(void)
 {
-       int alphabet = a;
+       int alphabet = 'a';
 
-       while (alphabet <= z)
+       while (alphabet <= 'z')
        {
-            if (alphabet != q  && alphabet != e)
+            if (alphabet != 'q'  && alphabet != 'e')
                     putchar(alphabet);
             alphabet++;
        }
 
-       putchar(n);
+       putchar('\n');
 
        return (0);
 }
