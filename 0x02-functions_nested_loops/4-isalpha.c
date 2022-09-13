@@ -7,8 +7,8 @@
  */
 int _isalpha(int c)
 {
-         int is_lowercase = (c >= a && c <= z);
-         int is_uppercase = (c >= A && c <= Z);
+         int is_lowercase = (c >= a && c <= 'z');
+         int is_uppercase = (c >= A && c <= 'Z');
          
           return (is_lowercase || is_uppercase);
 }
