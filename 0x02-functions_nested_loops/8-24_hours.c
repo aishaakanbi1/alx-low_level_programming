@@ -25,12 +25,12 @@ for (minutes = 0; minutes < 60; minutes++)
 minutes_y = minutes % 10;
 minutes_x = minutes / 10;
 
-_putchar(hours_x + 0);
-_putchar(hours_y + 0);
-_putchar(:);
-_putchar(minutes_x + 0);
-_putchar(minutes_y + 0);
-_putchar(n);
+_putchar(hours_x + '0');
+_putchar(hours_y + '0');
+_putchar(':');
+_putchar(minutes_x + '0');
+_putchar(minutes_y + '0');
+_putchar('\n');
 }
 
 }
