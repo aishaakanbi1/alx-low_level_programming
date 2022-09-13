@@ -10,9 +10,8 @@
 int main(void)
 {
 
-int
+int_putchar(char c); 
 
-_putchar(char c);  
 _putchar('_');
 _putchar('p');
 _putchar('u');
