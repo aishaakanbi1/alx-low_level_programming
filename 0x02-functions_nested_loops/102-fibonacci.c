@@ -24,7 +24,7 @@ printf("%lu", fibonacci);
 prevfibonacci = swap;
 counter++;
 }
-putchar(n);
+putchar('\n');
 
 return (0);
 }
