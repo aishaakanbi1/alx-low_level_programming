@@ -1,23 +1,61 @@
 #include "main.h"
 
+int get_length(char *);
+
 /**
- * puts_half - prints the second half of a string
- * @str: sting to cut in half
- * Description: prints the second half of a string followed by a new line
+ * puts_half - prints the second half of a string to the screen
+ * @str: String to be printed to the screen
+ *
+ * Return: void
  */
 void puts_half(char *str)
 {
-	int letter_count, midstring;
+	int length;
+	int n;
+	int start;
 
-	/*get length of string*/
-	for (letter_count = 0; str[letter_count] != '\0'; letter_count++)
-		;
-
-	/*get the middle of the string*/
-	midstring = letter_count / 2;
-
-	/*print from middle of sting to the end*/
-	for (letter_count--; midstring <= letter_count; midstring++)
-		_putchar(str[midstring]);
+	length = get_length(str);
+	if (length % 2 != 0)
+	{
+		n = (length - 1) / 2;
+		start = length - n;
+		while (str[start] != '\0')
+		{
+			_putchar(str[start]);
+			start++;
+		}
+	}
+	else
+	{
+		n = length / 2;
+		start = length - n;
+		while (str[start] != '\0')
+		{
+			_putchar(str[start]);
+			start++;
+		}
+	}
 	_putchar('\n');
+}
+
+/**
+ * get_length - determines the length of a string
+ * @str: String whose length we are interested in
+ *
+ * Return: length
+ */
+int get_length(char *str)
+{
+	int length;
+	int i;
+
+	i = 0;
+	length = 0;
+	while (str[i] != '\0')
+	{
+		++length;
+		i++;
+	}
+
+	return (length);
 }
