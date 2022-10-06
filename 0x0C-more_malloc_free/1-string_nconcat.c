@@ -1,2 +1,2 @@
-_attribute_
+__attribute__
 
