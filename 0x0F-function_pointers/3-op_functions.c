@@ -34,13 +34,6 @@ int op_mul(int a, int b)
 	return (a * b);
 }
 
-/**
- * op_div - returns quotient of two numbers
- * @a: int parameter
- * @b: int parameter
- *
- * Return: (@a / @b)
- */
 int op_div(int a, int b)
 {
 	return (a / b);
