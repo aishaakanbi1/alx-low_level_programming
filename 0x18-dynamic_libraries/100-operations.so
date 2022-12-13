@@ -1,0 +1,3 @@
+ _ITM_deregisterTMCloneTable _ITM_registerTMCloneTable __cxa_finalize
+ GCC: (Debian 11.3.0-5) 11.3.0
+ crtstuff.c deregister_tm_clones __do_global_dtors_aux completed.0 __do_global_dtors_aux_fini_array_entry frame_dummy __frame_dummy_init_array_entry 100-operations.c __dso_handle __GNU_EH_FRAME_HDR _GLOBAL_OFFSET_TABLE_ __cxa_finalize _ITM_registerTMCloneTable _ITM_deregisterTMCloneTable .symtab .strtab .shstrtab .note.gnu.build-id .gnu.hash .dynsym .dynstr .rela.dyn .eh_frame_hdr .eh_frame .init_array .fini_array .dynamic
